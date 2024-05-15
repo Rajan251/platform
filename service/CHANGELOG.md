@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.4.3](https://github.com/opentdf/platform/compare/service/v0.4.2...service/v0.4.3) (2024-05-15)
+
+
+### Bug Fixes
+
+* **authz:** Populate fqn field in attribute values returned from GetAttributeValuesByFqns ([#816](https://github.com/opentdf/platform/issues/816)) ([0ac8390](https://github.com/opentdf/platform/commit/0ac83904836f1c0b42416d137f4a929a7804467d))
+* **policy:** fix policy fqn-reindex command schema suffix ([#818](https://github.com/opentdf/platform/issues/818)) ([aff9850](https://github.com/opentdf/platform/commit/aff985092e83b5d1c14ef48f9c92df66b726e8d2)), closes [#817](https://github.com/opentdf/platform/issues/817)
+* **policy:** GetAttributeValuesByFqns and MatchSubjectMappings should not return deactivated policy objects ([#813](https://github.com/opentdf/platform/issues/813)) ([41ca82d](https://github.com/opentdf/platform/commit/41ca82d692209d120bfa52800fa0988bf373b0b5)), closes [#494](https://github.com/opentdf/platform/issues/494)
+
 ## [0.4.2](https://github.com/opentdf/platform/compare/service/v0.4.1...service/v0.4.2) (2024-05-15)
 
 
